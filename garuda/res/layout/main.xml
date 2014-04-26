@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.83" >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/background" />
+
+        <AbsoluteLayout
+            android:layout_width="109dp"
+            android:layout_height="146dp"
+            android:layout_x="106dp"
+            android:layout_y="119dp" >
+
+            <ImageView
+                android:id="@+id/rntai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="54dp"
+                android:layout_y="58dp"
+                android:src="@drawable/btn_rantai" />
+
+            <ImageView
+                android:id="@+id/bringin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="55dp"
+                android:layout_y="4dp"
+                android:src="@drawable/btn_bringin" />
+
+            <ImageView
+                android:id="@+id/bnteng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="-1dp"
+                android:layout_y="2dp"
+                android:src="@drawable/btn_bnteng" />
+
+            <ImageView
+                android:id="@+id/bntang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="34dp"
+                android:layout_y="42dp"
+                android:src="@drawable/btn_bntang" />
+
+            <ImageView
+                android:id="@+id/padipas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="-1dp"
+                android:layout_y="59dp"
+                android:src="@drawable/btn_padipas" />
+
+        </AbsoluteLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_x="10dp"
+            android:layout_y="274dp" >
+
+            <ImageView
+                android:id="@+id/ck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.83"
+                android:layout_x="218dp"
+                android:layout_y="32dp"
+                android:src="@drawable/btn_logo" />
+
+        </AbsoluteLayout>
+
+    </AbsoluteLayout>
+
+</LinearLayout>
